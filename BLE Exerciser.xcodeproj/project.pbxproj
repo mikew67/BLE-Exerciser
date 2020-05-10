@@ -13,6 +13,7 @@
 		272349EF24624A6400E7DC60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 272349EE24624A6400E7DC60 /* Assets.xcassets */; };
 		272349F224624A6400E7DC60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 272349F124624A6400E7DC60 /* Preview Assets.xcassets */; };
 		272349F524624A6400E7DC60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 272349F324624A6400E7DC60 /* LaunchScreen.storyboard */; };
+		272349FD2462528E00E7DC60 /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272349FC2462528D00E7DC60 /* BLEManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		272349F124624A6400E7DC60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		272349F424624A6400E7DC60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		272349F624624A6400E7DC60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		272349FC2462528D00E7DC60 /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				272349E824624A6000E7DC60 /* AppDelegate.swift */,
 				272349EA24624A6000E7DC60 /* SceneDelegate.swift */,
 				272349EC24624A6000E7DC60 /* ContentView.swift */,
+				272349FC2462528D00E7DC60 /* BLEManager.swift */,
 				272349EE24624A6400E7DC60 /* Assets.xcassets */,
 				272349F324624A6400E7DC60 /* LaunchScreen.storyboard */,
 				272349F624624A6400E7DC60 /* Info.plist */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				272349E924624A6000E7DC60 /* AppDelegate.swift in Sources */,
+				272349FD2462528E00E7DC60 /* BLEManager.swift in Sources */,
 				272349EB24624A6000E7DC60 /* SceneDelegate.swift in Sources */,
 				272349ED24624A6000E7DC60 /* ContentView.swift in Sources */,
 			);
@@ -289,6 +293,7 @@
 				DEVELOPMENT_TEAM = L3A48G75U2;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "BLE Exerciser/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +301,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mwirth.ble-exerciser.BLE-Exerciser";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -309,6 +314,7 @@
 				DEVELOPMENT_TEAM = L3A48G75U2;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "BLE Exerciser/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,7 +322,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mwirth.ble-exerciser.BLE-Exerciser";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
